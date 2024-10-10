@@ -1,5 +1,19 @@
-# Vue 3 + Vite
+# Meal Search Website
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Description
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+This website allows users to search for meals by name, by the first letter, and
+by ingredients.
+
+## Features
+
+- Search meals by name
+- Search meals by the first letter
+- Search meals by ingredients
+- Display meal details, including images and recipes
+
+## Technologies Used
+
+- Vue: Front-end framework for building the UI
+- Vuex: State management for handling the application’s data
+- Tailwind CSS: Styling the website with a utility-first CSS framework
