@@ -1,5 +1,8 @@
 <template>
-  <div class="bg-white shadow rounded-xl hover:scale-105 transition-all">
+  <div
+    v-if="meal.idMeal"
+    class="bg-white shadow rounded-xl hover:scale-105 transition-all"
+  >
     <router-link :to="{ name: 'mealDetails', params: { id: meal.idMeal } }">
       <img
         :src="meal.strMealThumb"
